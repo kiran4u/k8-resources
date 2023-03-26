@@ -6,6 +6,8 @@ metadata:
     course: docker
     duration: 25hr
     trainer: KB
+  annotations:
+    org.docker.kubernetes.image.maintainer: KB
 spec:
   containers:
   - name: nginx
