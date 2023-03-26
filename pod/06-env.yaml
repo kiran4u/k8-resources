@@ -11,3 +11,5 @@ spec:
       value: docker
     - name: trainer
       value: KB
+    - name: duration
+      value: 30
