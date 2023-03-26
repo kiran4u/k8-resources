@@ -7,4 +7,12 @@ spec:
     - image: kbachu/stress
       name: stress
       imagePullPolicy: Always
+      command: ["sleep", "200"]
+      resources:
+       requests:
+        cpu: "150m" # 1CPU = 1000m
+        memory: "200Mi"
+      limits:
+        cpu: "200m"
+        memory: "300Mi"
     
