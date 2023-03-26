@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stress  
+spec:
+  containers:
+    - image: kbachu/stress
+      name: stress
+      imagePullPolicy: Always
+    
