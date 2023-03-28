@@ -19,7 +19,7 @@ metadata:
   name: nginx-service
 spec:
   selector: 
-    name: nginx
+    server: nginx
   ports:
     - protocol: TCP
       port: 80 # service port
