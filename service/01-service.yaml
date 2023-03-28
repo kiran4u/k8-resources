@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: nginx
   labels:
-    name: nginx
+    server: nginx
 spec:
   containers:
     - name: nginx
@@ -25,7 +25,18 @@ spec:
       port: 80 # service port
       targetPort: 80 # target port
 
-
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  labels:
+    purpose: debug
+spec:
+  containers:
+    - name: almalinux
+      image: almalinux
+      command: ["sleep", "100000"]
 
 
 
