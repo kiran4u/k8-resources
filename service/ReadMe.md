@@ -9,5 +9,11 @@ USER --> NODE1:<NODE-PORT> --> Cluster IP --> Container
 
 3. Load Balancers:
  Work only with AWS, Azure, GCP.
+ELB --> any instance on node port --> cluster Ip --> Pod
 
- 
+LB => NodePort => ClusterIP => POD.
+
+
+
+
+
