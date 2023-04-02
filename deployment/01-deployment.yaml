@@ -29,3 +29,5 @@ spec:
 
 # check status of the deployment
 #kubectl rollout status deployment/nginx-deployment
+# kubectl rollout history deployment/nginx-deployment --revision=1
+

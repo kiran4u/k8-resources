@@ -53,9 +53,12 @@ Deployment:
 
  if find --> end pipeline --> success
 
- if fails --> take deployment to previous version using below command:
+ if fails --> take deployment to previous version using below command:--> error  pipeline--> end
 
- kubcetl rollout undo deploymnet/nginx-deploymnet --to-revision=3
+# check status of the deployment
+# kubectl rollout status deployment/nginx-deployment
+# kubectl rollout history deployment/nginx-deployment --revision=1
+# kubcetl rollout undo deploymnet/nginx-deploymnet --to-revision=1
 
  ----------------------------------------------
 
