@@ -29,4 +29,12 @@ If both pods are in same node, latency will be less.
 catalogue --> labels
 cart --> go and sit in the node where catalogue is running
 
+Anti Affinity:
+-------------
+catalogue is running
+I want cart in node where catalogue is not running
+
+
+
+
 
