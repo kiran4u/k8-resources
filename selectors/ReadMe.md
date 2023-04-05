@@ -21,3 +21,12 @@ preferedDuringSchedulingIgnoredDuringExecution:
 You can have multiple labels, you can put weight
 if multiple nodes matches, more wieght will get prefered.
 
+Podaffinity:
+-----------
+Cart --> Catalogue
+
+If both pods are in same node, latency will be less.
+catalogue --> labels
+cart --> go and sit in the node where catalogue is running
+
+
