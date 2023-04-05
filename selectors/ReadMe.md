@@ -18,3 +18,6 @@ preferedDuringSchedulingIgnoredDuringExecution:
 1. Scheduler will schedule based on labels -- soft rule
 2. Before POD comes to execution, som one may change  node labels or may not change.
 
+You can have multiple labels, you can put weight
+if multiple nodes matches, more wieght will get prefered.
+
