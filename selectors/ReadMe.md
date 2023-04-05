@@ -46,6 +46,19 @@ Web Application --> Redis DB
 3. 3ed Node
 
 
+Taint and tolerations:
+-----------------------
+Taint  == paint
+
+If you taint a node , you don't want any pods in that node.
+
+out of 3 nodes taint one node , by default scheudler will not schedule any pod in this.
+
+But we want DB pods in this node. For this we should use toleration.
+
+
+
+
 
 
 
