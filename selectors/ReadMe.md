@@ -32,7 +32,20 @@ cart --> go and sit in the node where catalogue is running
 Anti Affinity:
 -------------
 catalogue is running
-I want cart in node where catalogue is not running
+I want cart in node where catalogue is not running.
+
+Use Case:
+-----------------
+Redis  --> Cache DB
+
+Web Application --> Redis DB
+
+1. First replica it goes to node where already redis is not running
+    3 Nodes -->  select 1 Node
+2. Select another node 2
+3. 3ed Node
+
+
 
 
 

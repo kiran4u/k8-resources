@@ -7,7 +7,7 @@ hostpath - type of kuberntes volume
 
 daemon set:
 ----------
-If you run damonset it make sure one pod runs on each and every node
+If you run daemonset it make sure one pod runs on each and every node
 useful to collect metrics and logs of node.
 
 mounting configs maps as volumes
