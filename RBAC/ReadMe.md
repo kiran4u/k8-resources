@@ -64,6 +64,31 @@ they should not have admin access
 
 they should only have limited access to deploy their microservices.
 
+############
+EKS Admins:
+----------
+Roboshop namespace
+IAM group of developers
+IAM group of namespace administrators
+IAM group of  namespace readers
+
+Role, RoleBinding, AWS-auth
+ClusterRole, ClusterRoleBidning, AWS-auth   --> devops engineers
+Projects may need some access to cluster level resources like PV
+
+A new person addded to EKS-admin team
+-------------------------------
+ClusterRole
+ClusterRoleBinding
+------------------------------------------------------------------
+
+
+Deployments
+PV, PVC, 
+StatefulSet,
+Services.
+------------------
+
 
 
 
