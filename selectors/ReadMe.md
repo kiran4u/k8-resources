@@ -64,3 +64,6 @@ But we want DB pods in this node. For this we should use toleration.
 
 
 
+
+
+
