@@ -42,6 +42,23 @@ kubectl get configmap aws-auth -n kube-system -o yaml
 
 we need to edit aws-auth configmap in kube-system namespace to let EKS cluster know IAM users.
 
+Now he will mail us, 
+IAM user created 
+roboshop namespace created
+roboshop admin role created
+attached IAM roboshop  admin user to the  roboshop amdin role
+Configured aws-auth to add IAM user to EKS Cluster
+
+Now go ahead and use your IAM user.
+
+# New workstation
+aws sts get-caller-identity
+[ec2-user@ip-172-31-44-197 ~]$ aws eks update-kubeconfig --region ca-central-1 --name spot-cluster
+Added new context arn:aws:eks:ca-central-1:601241527501:cluster/spot-cluster to /home/ec2-user/.kube/config
+
+
+
+
 
 
 
