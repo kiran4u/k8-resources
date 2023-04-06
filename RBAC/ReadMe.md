@@ -56,6 +56,15 @@ aws sts get-caller-identity
 [ec2-user@ip-172-31-44-197 ~]$ aws eks update-kubeconfig --region ca-central-1 --name spot-cluster
 Added new context arn:aws:eks:ca-central-1:601241527501:cluster/spot-cluster to /home/ec2-user/.kube/config
 
+Created read only usr "kiran"
+
+Usually DevOps engineers for Roboshop have namepsace admin access.
+Now we have developers
+they should not have admin access
+
+they should only have limited access to deploy their microservices.
+
+
 
 
 
