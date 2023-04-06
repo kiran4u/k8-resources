@@ -6,7 +6,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::601241527501:role/eksctl-spot-cluster-nodegroup-spo-NodeInstanceRole-VX66GPP4CIUY
       username: system:node:{{EC2PrivateDNSName}}
-   mapUsers: |
+  mapUsers: |
     - userarn: arn:aws:iam::601241527501:user/roboshop-admin
       username: roboshop-admin
     - userarn: arn:aws:iam::601241527501:user/kiran
